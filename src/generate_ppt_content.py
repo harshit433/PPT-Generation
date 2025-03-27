@@ -2,7 +2,7 @@ from groq import Groq
 import instructor
 from .schema import LLMResponse
 
-client = Groq(api_key='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')
+client = Groq(api_key='you_api_key_here')
 
 client = instructor.from_groq(client)
 
